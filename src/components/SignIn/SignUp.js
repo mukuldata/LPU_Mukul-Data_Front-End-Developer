@@ -87,7 +87,7 @@ const SignUp = () => {
         <>
         <Navbar bg="dark" variant="dark">
 	<Container>
-		<h4 style={{color:'white'}}>User Registration</h4>
+		<h4 style={{color:'white'}}>Project Management</h4>
 </Container>
 </Navbar>
 <br></br>
