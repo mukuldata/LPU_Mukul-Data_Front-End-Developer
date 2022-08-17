@@ -26,7 +26,7 @@ const SignUp = () => {
    
 
     const [data,setData] = useState([]);
-    console.log(inpval);
+    //console.log(inpval);
 
     const getdata = (e) => {
         // console.log(e.target.value);
