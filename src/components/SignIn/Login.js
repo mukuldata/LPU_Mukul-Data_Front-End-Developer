@@ -17,7 +17,7 @@ const Login = () => {
     })
 
     const [data, setData] = useState([]);
-    console.log(inpval);
+    //console.log(inpval);
 
     const getdata = (e) => {
         // console.log(e.target.value);
@@ -40,7 +40,7 @@ const Login = () => {
         e.preventDefault();
 
         const getuserArr = localStorage.getItem("useryoutube");
-        console.log(getuserArr);
+        //console.log(getuserArr);
 
         const { email, password } = inpval;
         if (email === "") {
@@ -70,7 +70,7 @@ const Login = () => {
                 if (userlogin.length === 0) {
                     alert("invalid details")
                 } else {
-                    console.log("user login succesfulyy");
+                    //console.log("user login succesfulyy");
 
                     localStorage.setItem("user_login", JSON.stringify(userlogin))
 
